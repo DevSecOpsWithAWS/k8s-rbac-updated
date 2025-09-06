@@ -40,7 +40,7 @@ rules:
   #
   # at the HTTP level, the name of the resource for accessing Secret
   # objects is "secrets"
-  resources: ["secrets","persistentvolumes"]
+  resources: ["nodes","persistentvolumes"]
   verbs: ["get", "watch", "list"]
 
 ---
